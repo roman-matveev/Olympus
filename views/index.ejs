@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olympus</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="container">
+            <h1>Olympus</h1>
+
+            <p class="lead">Join our waitlist for updates on the product release.</p>
+            <p class="sub">You're in good company, with <strong>
+                    <%=count%></strong> others in line for launch.</p>
+
+            <form method="POST" action='/subscribe'>
+                <input type="text" class="form" name="email" placeholder="email">
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
